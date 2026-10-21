@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">太一</string>
+
+    <!-- 导航 -->
+    <string name="nav_today">今日</string>
+    <string name="nav_history">历史</string>
+    <string name="nav_stats">统计</string>
+    <string name="nav_settings">设置</string>
+    <string name="back">返回</string>
+    <string name="close">关闭</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="save">保存</string>
+    <string name="discard">放弃</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="rename">重命名</string>
+    <string name="done">完成</string>
+    <string name="loading">正在准备…</string>
+    <string name="error_generic">操作失败，请稍后再试</string>
+
+    <!-- 模式 -->
+    <string name="mode_quiet">静功</string>
+    <string name="mode_standing">桩功</string>
+    <string name="mode_all">全部</string>
+    <string name="audio_scope_quiet">静功专用</string>
+    <string name="audio_scope_standing">桩功专用</string>
+    <string name="audio_scope_all">通用</string>
+
+    <!-- 首页 -->
+    <string name="today_title">今日</string>
+    <string name="today_total_label">今日总时长</string>
+    <string name="today_streak_label">连续练习</string>
+    <string name="goal_progress">今日目标</string>
+    <string name="goal_progress_detail">%1$d / %2$d 分钟</string>
+    <string name="goal_reached">今日目标已完成</string>
+    <string name="today_minutes">%1$d 分钟</string>
+    <string name="today_seconds">%1$d 秒</string>
+    <string name="today_less_than_minute">不足 1 分钟</string>
+    <string name="today_hours">%1$d 小时 %2$d 分钟</string>
+    <string name="practice_count">%1$d 次</string>
+    <string name="latest_practice">最近一次：%1$s</string>
+    <string name="latest_none">尚未练习</string>
+    <string name="today_sessions">今日 %1$d 次</string>
+    <string name="streak_days">%1$d 天</string>
+    <string name="active_session_title">正在进行 %1$s</string>
+    <string name="active_session_time">已练习 %1$s</string>
+    <string name="active_session_open">继续练习</string>
+    <string name="home_quiet_subtitle">静坐 · 调息 · 内观</string>
+    <string name="home_standing_subtitle">松肩 · 沉胯 · 守中</string>
+    <string name="home_section_practice">练习</string>
+    <string name="home_footer">静坐片刻，回到呼吸。</string>
+    <string name="goal_ring_label">目标</string>
+    <string name="time_today_at">今天 %1$s</string>
+    <string name="time_yesterday_at">昨天 %1$s</string>
+    <string name="time_date_at">%1$s %2$s</string>
+
+    <!-- 练习页 -->
+    <string name="practice_title_quiet">静功练习</string>
+    <string name="practice_title_standing">桩功练习</string>
+    <string name="practice_status_ready">准备开始</string>
+    <string name="practice_status_running">计时中</string>
+    <string name="practice_status_paused">已暂停</string>
+    <string name="practice_recovered">设备重启后已恢复到最近计时点，本次练习已暂停。</string>
+    <string name="target_invalid">请输入 0 到 240 之间的分钟数</string>
+    <string name="practice_start">开始</string>
+    <string name="practice_pause">暂停</string>
+    <string name="practice_resume">继续</string>
+    <string name="practice_end">结束</string>
+    <string name="practice_target">目标 %1$d 分钟</string>
+    <string name="practice_target_none">设置目标</string>
+    <string name="practice_target_reached">目标已到</string>
+    <string name="target_dialog_title">设定目标时长</string>
+    <string name="target_dialog_label">分钟，0 表示不设目标</string>
+    <string name="target_off">不设目标</string>
+    <string name="practice_back_hint">计时将在后台继续</string>
+    <string name="practice_other_mode">正在进行%1$s练习，请先结束当前练习。</string>
+    <string name="practice_other_mode_action">返回当前练习</string>
+    <string name="practice_finish_hint">结束并记录这次练习</string>
+    <string name="practice_no_audio">还没有导入音频</string>
+    <string name="practice_no_audio_hint">可在设置中导入本机音频</string>
+    <string name="practice_audio_section">引导音频</string>
+    <string name="practice_audio_none">未选择音频</string>
+    <string name="practice_audio_switch">切换</string>
+    <string name="practice_audio_loop">循环</string>
+    <string name="practice_audio_play">播放</string>
+    <string name="practice_audio_pause">暂停</string>
+    <string name="practice_audio_playing">正在播放</string>
+    <string name="practice_audio_paused">已暂停</string>
+    <string name="practice_audio_pick_title">选择音频</string>
+    <string name="practice_audio_empty_option">不播放音频</string>
+
+    <!-- 结束小结 -->
+    <string name="summary_title">练习结束</string>
+    <string name="summary_duration_label">本次时长</string>
+    <string name="summary_note_label">备注（可选）</string>
+    <string name="summary_note_hint">记下此刻的感受…</string>
+    <string name="summary_save">保存记录</string>
+    <string name="summary_discard">放弃本次</string>
+    <string name="summary_saved">已保存本次练习</string>
+    <string name="summary_discarded">已放弃本次练习</string>
+    <string name="summary_save_failed">保存失败，请重试</string>
+
+    <!-- 通知 -->
+    <string name="notification_channel_name">练习计时</string>
+    <string name="notification_channel_description">练习计时与引导音频的常驻通知</string>
+    <string name="notification_running">%1$s计时中 %2$s</string>
+    <string name="notification_paused">%1$s已暂停 %2$s</string>
+    <string name="notification_audio_playing">音频播放中 · %1$s</string>
+    <string name="notification_audio_paused">音频已暂停 · %1$s</string>
+    <string name="notification_action_pause">暂停</string>
+    <string name="notification_action_resume">继续</string>
+    <string name="notification_action_end">结束</string>
+    <string name="notification_action_audio_pause">暂停音频</string>
+    <string name="notification_action_audio_play">播放音频</string>
+    <string name="notification_target_reached">目标时长已到，可继续练习</string>
+
+    <!-- 历史 -->
+    <string name="history_title">练习历史</string>
+    <string name="history_filter_all">全部</string>
+    <string name="history_empty">还没有练习记录</string>
+    <string name="history_empty_hint">从今日页开始第一次静坐或站桩</string>
+    <string name="history_delete_title">删除这条记录？</string>
+    <string name="history_delete_message">删除后无法恢复。</string>
+    <string name="history_edit_title">编辑记录</string>
+    <string name="history_duration_label">时长（分钟）</string>
+    <string name="history_invalid_duration">请输入 0.1 到 1440 之间的分钟数</string>
+    <string name="history_updated">记录已更新</string>
+    <string name="history_deleted">记录已删除</string>
+    <string name="history_note_empty">无备注</string>
+
+    <!-- 统计 -->
+    <string name="stats_title">练习统计</string>
+    <string name="stats_summary_title">时长汇总</string>
+    <string name="stats_today">今日</string>
+    <string name="stats_week">本周</string>
+    <string name="stats_month">本月</string>
+    <string name="stats_total">总计</string>
+    <string name="stats_quiet">静功</string>
+    <string name="stats_standing">桩功</string>
+    <string name="stats_sum">合计</string>
+    <string name="stats_last_30_days">最近 30 天</string>
+    <string name="stats_last_30_days_hint">按日堆叠 · 静功与桩功</string>
+    <string name="stats_chart_empty">这 30 天还没有记录</string>
+    <string name="stats_chart_max">单日最多 %1$d 分钟</string>
+    <string name="stats_heatmap_title">月历热力图</string>
+    <string name="stats_heatmap_less">少</string>
+    <string name="stats_heatmap_more">多</string>
+    <string name="stats_month_title">%1$d年%2$d月</string>
+    <string name="stats_prev_month">上个月</string>
+    <string name="stats_next_month">下个月</string>
+    <string name="stats_current_streak">连续练习</string>
+    <string name="stats_longest_streak">最长连续</string>
+    <string name="stats_total_days">累计练习天数</string>
+    <string name="stats_days_value">%1$d 天</string>
+    <string name="stats_minutes_value">%1$d 分钟</string>
+    <string name="stats_minutes_value_hours">%1$d 小时 %2$d 分钟</string>
+    <string name="stats_seconds_value">%1$d 秒</string>
+    <string name="stats_minutes_short">%1$d 分</string>
+    <string name="stats_seconds_short">%1$d 秒</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_section_appearance">外观</string>
+    <string name="settings_theme">皮肤模式</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="theme_light">日间</string>
+    <string name="theme_dark">夜晚</string>
+    <string name="settings_section_practice">练习</string>
+    <string name="settings_daily_goal">每日目标</string>
+    <string name="settings_daily_goal_summary">%1$d 分钟</string>
+    <string name="settings_goal_dialog_title">设置每日目标</string>
+    <string name="settings_goal_dialog_label">分钟（5–240）</string>
+    <string name="settings_goal_invalid">请输入 5 到 240 之间的分钟数</string>
+    <string name="settings_auto_play">开始计时时自动播放音频</string>
+    <string name="settings_auto_play_desc">默认开启；点击开始时播放当前选择的音频</string>
+    <string name="settings_default_audio">默认音频</string>
+    <string name="settings_default_audio_none">未选择</string>
+    <string name="settings_default_audio_dialog">选择默认音频</string>
+    <string name="settings_default_loop">音频默认循环</string>
+    <string name="settings_default_loop_desc">打开后单曲循环播放</string>
+    <string name="settings_target_quiet">静功目标时长</string>
+    <string name="settings_target_standing">桩功目标时长</string>
+    <string name="settings_target_summary">%1$d 分钟</string>
+    <string name="settings_target_off">不设目标</string>
+    <string name="settings_section_audio">音频</string>
+    <string name="settings_audio_manage">音频管理</string>
+    <string name="settings_audio_count">已导入 %1$d 个音频</string>
+    <string name="settings_section_data">数据</string>
+    <string name="settings_export_csv">导出练习记录（CSV）</string>
+    <string name="settings_export_csv_desc">导出全部记录，保存到您选择的位置</string>
+    <string name="settings_clear_data">清空练习记录</string>
+    <string name="settings_clear_data_desc">不会删除已导入的音频文件</string>
+    <string name="settings_clear_first_title">清空全部练习记录？</string>
+    <string name="settings_clear_first_message">所有历史记录、统计数据和连续天数都会被清除。此操作不可恢复。</string>
+    <string name="settings_clear_second_title">最后确认</string>
+    <string name="settings_clear_second_message">确定要永久删除全部练习记录吗？</string>
+    <string name="settings_clear_done">练习记录已清空</string>
+    <string name="settings_clear_blocked">请先结束当前正在进行的练习</string>
+    <string name="settings_clear_action">清空</string>
+    <string name="settings_clear_failed">清空失败，请重试</string>
+    <string name="settings_section_background">后台运行</string>
+    <string name="settings_background_title">小米 / HyperOS 后台设置</string>
+    <string name="settings_background_body">为保证息屏和切到后台后计时、音频不被系统中断，请在本应用的系统设置中：\n\n1. 省电策略设为「无限制」\n2. 允许「自启动」\n3. 允许通知\n\n不同 HyperOS 版本的入口名称可能略有差异。</string>
+    <string name="settings_open_app_settings">打开应用系统设置</string>
+    <string name="settings_section_about">关于</string>
+    <string name="settings_about">关于太一</string>
+    <string name="settings_about_summary">版本、隐私与数据说明</string>
+
+    <!-- 通知权限 -->
+    <string name="permission_notification_title">通知权限未开启</string>
+    <string name="permission_notification_body">计时仍会继续，但常驻通知可能不会显示。建议允许通知，以便查看计时和暂停。</string>
+    <string name="permission_grant">允许通知</string>
+    <string name="permission_open_settings">去系统设置</string>
+
+    <!-- 音频管理 -->
+    <string name="audio_manage_title">音频管理</string>
+    <string name="audio_import">导入音频</string>
+    <string name="audio_importing">正在导入…</string>
+    <string name="audio_empty">还没有导入音频</string>
+    <string name="audio_empty_hint">支持 mp3、m4a、wav、ogg 等本机文件</string>
+    <string name="audio_import_title">导入音频</string>
+    <string name="audio_name_label">显示名称</string>
+    <string name="audio_name_optional">留空则使用原文件名</string>
+    <string name="audio_untitled">未命名音频</string>
+    <string name="audio_scope_label">适用模式</string>
+    <string name="audio_default_badge">默认</string>
+    <string name="audio_import_confirm">导入</string>
+    <string name="audio_import_success">音频已导入</string>
+    <string name="audio_import_failed">导入失败，请确认文件可读取</string>
+    <string name="audio_rename_title">重命名音频</string>
+    <string name="audio_delete_title">删除这个音频？</string>
+    <string name="audio_delete_message">音频文件会从应用私有目录中删除，使用它的练习记录仍会保留音频名称。</string>
+    <string name="audio_deleted">音频已删除</string>
+    <string name="audio_renamed">名称已更新</string>
+    <string name="audio_preview">试听</string>
+    <string name="audio_stop_preview">停止试听</string>
+    <string name="audio_file_missing">音频文件不存在，可能已被清理</string>
+    <string name="audio_name_required">请输入名称</string>
+    <string name="audio_default_cleared">默认音频已失效，已自动清除</string>
+
+    <!-- CSV -->
+    <string name="csv_header">日期,开始时间,模式,时长秒,备注</string>
+    <string name="csv_file_name">taiyi-sessions-%1$s.csv</string>
+    <string name="csv_export_success">CSV 已导出</string>
+    <string name="csv_export_failed">导出失败，请重试</string>
+    <string name="csv_no_data">还没有可导出的记录</string>
+
+    <!-- 关于 -->
+    <string name="about_title">关于太一</string>
+    <string name="about_version">版本 %1$s</string>
+    <string name="about_privacy_title">隐私说明</string>
+    <string name="about_privacy_body">本应用完全离线运行，不申请互联网访问权限（INTERNET），不包含账号、云同步、统计或广告。\n\n练习记录保存在本机 Room 数据库中；导入的音频仅拷贝到应用私有目录。只有在你主动导出 CSV 时，数据才会离开应用。\n\n卸载应用会删除全部记录与音频。</string>
+    <string name="about_data_title">数据与备份</string>
+    <string name="about_data_body">Android 系统自动备份已关闭，避免练习数据和音频被上传到云端。请通过 CSV 导出自行备份记录。</string>
+
+    <!-- 日期与图表 -->
+    <string name="weekday_mon">一</string>
+    <string name="weekday_tue">二</string>
+    <string name="weekday_wed">三</string>
+    <string name="weekday_thu">四</string>
+    <string name="weekday_fri">五</string>
+    <string name="weekday_sat">六</string>
+    <string name="weekday_sun">日</string>
+
+    <!-- 无障碍 -->
+    <string name="cd_back">返回上一页</string>
+    <string name="cd_play_audio">播放音频</string>
+    <string name="cd_pause_audio">暂停音频</string>
+    <string name="cd_more">更多操作</string>
+    <string name="cd_edit_session">编辑这条记录</string>
+    <string name="cd_delete_session">删除这条记录</string>
+    <string name="cd_audio_preview">试听音频</string>
+</resources>
