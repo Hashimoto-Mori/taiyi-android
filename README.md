@@ -105,7 +105,3 @@ APK 输出：`app/build/outputs/apk/debug/app-debug.apk`
 - `allowBackup=false`，关闭系统自动备份。
 - 没有 INTERNET 权限、账号、云同步、埋点或广告。
 - 卸载应用会删除全部记录与音频；可使用 CSV 导出自行备份。
-
-## 说明
-
-当前开发环境没有连接 Android 真机。APK 已完成编译与单元测试；息屏 10 分钟、通知按钮、CSV 打开等真机场景需要在小米 14 上验收。
